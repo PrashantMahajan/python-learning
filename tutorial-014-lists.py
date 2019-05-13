@@ -18,40 +18,4 @@
  * @author prashantmahajan
  */
  """
-# https://youtu.be/_uQrJ0TkZlc?t=6474
-# Draw F
-
-characters = [5, 2, 5, 2, 2]
-
-for i in characters:
-    print("x" * i);
-
-str = "";
-j = 0;
-print("--------------");
-for i in characters:
-    str = "";
-    j = 0;
-    while j < i:
-        str += "x";
-        j += 1;
-    print(str)
-
-print("--------------");
-for i in characters:
-    str = "";
-    j = 0;
-    for j in range(i):
-        str += "x";
-    print(str)
-
-
-characters = [2,2,2,2,2,10]
-print("--------------");
-for i in characters:
-    str = "";
-    j = 0;
-    for j in range(i):
-        str += "x";
-    print(str)
-
+#https://youtu.be/_uQrJ0TkZlc?t=6958
