@@ -18,12 +18,4 @@
  * @author prashantmahajan
  */
  """
-#https://youtu.be/_uQrJ0TkZlc?t=6958
-""" WAP TO FInd the Largest Number in a list"""
-
-list = [2,2,1,4,100,21,3,45, 1000, 9999, 2,56]
-max = list[0];
-for itr in list:
-    if max < itr:
-        max = itr;
-print(f'MAX Number in the list is: {max}');
+#https://youtu.be/_uQrJ0TkZlc?t=8014

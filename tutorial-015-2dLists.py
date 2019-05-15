@@ -18,12 +18,30 @@
  * @author prashantmahajan
  */
  """
-#https://youtu.be/_uQrJ0TkZlc?t=6958
-""" WAP TO FInd the Largest Number in a list"""
+"""WAP to remove the duplicates in a sorted array"""
 
-list = [2,2,1,4,100,21,3,45, 1000, 9999, 2,56]
-max = list[0];
-for itr in list:
-    if max < itr:
-        max = itr;
-print(f'MAX Number in the list is: {max}');
+array = [1,1,2,2,3,3,3,3,4,4,5,5,6,6,7,7,7,8,8];
+
+print(f'Array prior to cleanup: {array}');
+i = 0;
+j = 1;
+while j < len(array):
+    if array[j] != array[j-1] :
+        array[i] = array[j];
+        i = i+1;
+    j += 1;
+while(i < len(array)):
+    array[i] = 0;
+    i += 1;
+print(f'Array after to cleanup: {array}');
+
+"""WAP to remove the duplicates in a non array"""
+
+array = [1,1,2,2,3,3,3,3,4,4,5,5,6,6,7,7,7,8,8];
+array2 = [];
+for itr in array:
+    if itr not in array2:
+        array2.append(itr);
+
+print(array2);
+
