@@ -18,8 +18,16 @@
  * @author prashantmahajan
  */
  """
-#https://youtu.be/_uQrJ0TkZlc?t=8014
 
-tupple = (1,2,3);
-tupple += (1,2);
-print(tupple)
+#WAP to print the English text for the phone number entered.
+try:
+    mapping = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"};
+    phoneNumber = input("Please enter you phone Number:\n");
+    phoneNumberText = "";
+    for itr in phoneNumber:
+        phoneNumberText += f'{mapping.get(int(itr))} ';
+
+    print(phoneNumberText);
+
+except:
+    print("Error Occurred");

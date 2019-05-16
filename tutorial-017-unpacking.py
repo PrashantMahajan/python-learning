@@ -18,8 +18,27 @@
  * @author prashantmahajan
  */
  """
-#https://youtu.be/_uQrJ0TkZlc?t=8014
+import sys
+coordinates = (1,2,3)
 
-tupple = (1,2,3);
-tupple += (1,2);
-print(tupple)
+x,y,z = coordinates;
+print(x);
+print(y);
+print(z);
+
+coordinates = [1,2,3]
+
+x,y,z = coordinates;
+print(x);
+print(y);
+print(z);
+
+try:
+    coordinates = [1,2,3,4,5,6,7] #Error HERE
+
+    x,y,z = coordinates;
+    print(x);
+    print(y);
+    print(z);
+except:
+    print(f'Oops! {sys.exc_info()} occured.')

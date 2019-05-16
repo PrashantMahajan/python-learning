@@ -18,8 +18,4 @@
  * @author prashantmahajan
  */
  """
-#https://youtu.be/_uQrJ0TkZlc?t=8014
-
-tupple = (1,2,3);
-tupple += (1,2);
-print(tupple)
+#https://youtu.be/_uQrJ0TkZlc?t=8793
